@@ -1,0 +1,41 @@
+# Python Data Types in One Program
+
+integer_value = 10
+float_value = 10.5
+complex_value = 2 + 3j
+string_value = "Harshada"
+boolean_value = True
+list_value = [10, 20, 30]
+tuple_value = (10, 20, 30)
+set_value = {10, 20, 30}
+dictionary_value = {
+    "Name": "Harshada",
+    "Age": 20
+}
+
+print("Integer:", integer_value)
+print("Type:", type(integer_value))
+
+print("Float:", float_value)
+print("Type:", type(float_value))
+
+print("Complex:", complex_value)
+print("Type:", type(complex_value))
+
+print("String:", string_value)
+print("Type:", type(string_value))
+
+print("Boolean:", boolean_value)
+print("Type:", type(boolean_value))
+
+print("List:", list_value)
+print("Type:", type(list_value))
+
+print("Tuple:", tuple_value)
+print("Type:", type(tuple_value))
+
+print("Set:", set_value)
+print("Type:", type(set_value))
+
+print("Dictionary:", dictionary_value)
+print("Type:", type(dictionary_value))
