@@ -1,0 +1,17 @@
+# Variable Program in Python
+
+name = "Harshada"
+age = 20
+marks = 86.24
+city = "Shirpur"
+is_student = True
+
+print("Name :", name)
+print("Age :", age)
+print("Marks :", marks)
+print("City :", city)
+print("Student :", is_student)
+
+# Changing variable value
+age = 21
+print("Updated Age :", age)
