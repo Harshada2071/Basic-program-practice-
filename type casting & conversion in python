@@ -1,0 +1,31 @@
+# Type Casting and Type Conversion in Python
+
+a = 10          # Integer
+b = 5.5         # Float
+c = "100"       # String
+d = 1           # Integer
+e = 3           # Integer
+
+print("Original Values")
+print(a, type(a))
+print(b, type(b))
+print(c, type(c))
+print(d, type(d))
+
+# Integer to Float
+print("\nInt to Float:", float(a), type(float(a)))
+
+# Float to Integer
+print("Float to Int:", int(b), type(int(b)))
+
+# String to Integer
+print("String to Int:", int(c), type(int(c)))
+
+# Integer to String
+print("Int to String:", str(a), type(str(a)))
+
+# Integer to Boolean
+print("Int to Bool:", bool(d), type(bool(d)))
+
+# Integer to Complex
+print("Int to Complex:", complex(e), type(complex(e)))
