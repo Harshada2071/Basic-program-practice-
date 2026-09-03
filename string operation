@@ -1,0 +1,47 @@
+# String Operations in Python
+
+str1 = "Hello"
+str2 = "Python"
+
+print("Original String 1:", str1)
+print("Original String 2:", str2)
+
+# Concatenation
+print("\nConcatenation:", str1 + " " + str2)
+
+# Repetition
+print("Repetition:", str1 * 3)
+
+# Indexing
+print("First Character:", str1[0])
+print("Last Character:", str1[-1])
+
+# Slicing
+print("Slicing [1:4]:", str1[1:4])
+print("Slicing [:3]:", str1[:3])
+print("Slicing [2:]:", str1[2:])
+
+# Length
+print("Length:", len(str1))
+
+# Upper and Lower
+print("Upper Case:", str1.upper())
+print("Lower Case:", str2.lower())
+
+# Replace
+print("Replace:", str2.replace("Python", "Java"))
+
+# Find
+print("Find 'th':", str2.find("th"))
+
+# Count
+str3 = "banana"
+print("Count of 'a':", str3.count("a"))
+
+# Membership Operators
+print("'H' in str1:", "H" in str1)
+print("'z' not in str1:", "z" not in str1)
+
+# String Comparison
+print("str1 == str2:", str1 == str2)
+print("str1 != str2:", str1 != str2)
