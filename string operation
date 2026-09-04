@@ -38,10 +38,4 @@ print("Find 'th':", str2.find("th"))
 str3 = "banana"
 print("Count of 'a':", str3.count("a"))
 
-# Membership Operators
-print("'H' in str1:", "H" in str1)
-print("'z' not in str1:", "z" not in str1)
 
-# String Comparison
-print("str1 == str2:", str1 == str2)
-print("str1 != str2:", str1 != str2)
