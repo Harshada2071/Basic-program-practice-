@@ -14,6 +14,6 @@ age = 19
 if age < 18:
     print ("minor")
 elif age == 18:
-    print ("just eligible for voting") 
+    print ("just eligible for voting")
 elif age > 18:    
      print ("eligible for voting")
